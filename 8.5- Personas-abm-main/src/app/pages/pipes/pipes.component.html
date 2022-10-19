@@ -1,0 +1,11 @@
+<h1>Pipe normal</h1>
+<p >{{texto | conversorPipe}}</p>
+
+<h1>Pipe condicionado</h1>
+<p >{{check | conversor2:"entregado":"no entregado"}}</p>
+<p >{{!check | conversor2:"entregado":"no entregado"}}</p>
+
+<h1>Pipe argumentos</h1>
+<p >{{ 'valor a cambiar' | conversor3:"curso"}}</p>
+<p >{{ 'valor a cambiar' | conversor3:"custom"}}</p>
+<p >{{ 'valor a cambiar' | conversor3:""}}</p>
